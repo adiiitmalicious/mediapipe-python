@@ -27,7 +27,7 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
    cd mediapipe-python
    ```
 
-2. **Buat Virtual Environment (Sangat Direkomendasikan):**
+2. **Buat Virtual Environment (Direkomendasikan):**
    ```bash
    python -m venv venv
    
@@ -39,11 +39,10 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek ini di komputer lokal And
    ```
 
 3. **Instal *Dependencies*:**
-   Jika terdapat file `requirements.txt`, jalankan perintah ini:
+   Jalankan perintah ini di Terminal:
    ```bash
-   pip install -r requirements.txt
+   pip install install opencv-python mediapipe
    ```
-   *(Jika tidak ada file requirements, Anda bisa menginstalnya secara manual dengan perintah: `pip install opencv-python mediapipe`)*
 
 ## 🚀 Cara Penggunaan
 
@@ -54,6 +53,8 @@ Contoh untuk menjalankan pelacakan tangan:
 python main.py
 # atau
 python hand_tracking.py
+# dan
+python face_mesh.py
 ```
 
 > **Catatan:** Saat jendela kamera terbuka, tekan tombol **'q'** pada keyboard Anda untuk menghentikan program dan menutup jendela.
@@ -78,7 +79,3 @@ Kontribusi selalu diterima! Jika Anda memiliki ide untuk fitur baru, optimasi ko
 3. *Commit* perubahan Anda (`git commit -m 'Menambahkan fitur baru'`)
 4. *Push* ke *branch* tersebut (`git push origin fitur-baru`)
 5. Buka sebuah **Pull Request**
-
-## 📄 Lisensi
-
-Proyek ini didistribusikan di bawah Lisensi MIT. Lihat `LICENSE` untuk informasi lebih lanjut.
