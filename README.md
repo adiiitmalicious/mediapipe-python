@@ -5,11 +5,11 @@ Repositori ini berisi implementasi dan eksperimen *computer vision* menggunakan 
 ## 🌟 Fitur Utama
 
 Berikut adalah beberapa modul deteksi yang tersedia di dalam proyek ini:
-- [:checklist:] **Hand Tracking** (Pelacakan Tangan dan Jari)
-- [x] **Face Detection** (Deteksi Wajah)
-- [x] **Face Mesh** (Pemetaan Jaring/Kontur Wajah)
-- [x] **Pose Estimation** (Estimasi Postur dan Gerakan Tubuh)
-- [x] **Holistic Tracking** (Pelacakan Menyeluruh: Wajah, Tangan, dan Tubuh)
+- [✅] **Hand Tracking** (Pelacakan Tangan dan Jari)
+- [✅] **Face Detection** (Deteksi Wajah)
+- [✅] **Face Mesh** (Pemetaan Jaring/Kontur Wajah)
+- [✅] **Pose Estimation** (Estimasi Postur dan Gerakan Tubuh)
+- [✅] **Holistic Tracking** (Pelacakan Menyeluruh: Wajah dan Tangan)
 
 ## 📋 Prasyarat
 
